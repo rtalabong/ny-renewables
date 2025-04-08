@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New York New Renewables</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="sidebar-container">
+        <div id="title">How New York Plans to Build Its Renewable Future</div>
+        <div id="subhead">In its most ambitious energy move in decades, the New York Power Authority is stepping into the role of a major
+            renewable energy
+            developer. The agency’s new plan lays out 37 projects and a path to scale up clean power through 2035.</div>
+
+
+        <div id="legend-color">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #F7CB15;"></div>
+                <span>Solar</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #06A77D;"></div>
+                <span>Battery</span>
+            </div>
+        </div>
+
+
+        <div class="legend-status">
+            <div class="legend-status-item">
+                <div class="legend-status-circle ready"></div>
+                <span>Ready to Build</span>
+            </div>
+            <div class="legend-status-item">
+                <div class="legend-status-circle review"></div>
+                <span>Under Review</span>
+            </div>
+            <div class="legend-status-item">
+                <div class="legend-status-circle planned"></div>
+                <span>Planned</span>
+            </div>
+        </div>
+
+        <div class="legend-size">
+            <div class="size-labels">
+                <span>Less capacity</span>
+                <span>More capacity</span>
+            </div>
+            <div class="size-scale">
+                <div class="size-circle" style="width: 8px; height: 8px;"></div>
+                <div class="size-line"></div>
+                <div class="size-circle" style="width: 35px; height: 35px;"></div>
+            </div>
+        </div>
+
+        <p><strong>Click a marker to see the details of the project.</strong></p>
+
+
+    </div>
+    </div>
+    <div id="map-container"></div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
