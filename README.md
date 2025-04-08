@@ -1,6 +1,6 @@
 # 🗺️ How New York Plans to Build Its Renewable Future
 
-This interactive map visualizes New York Power Authority's (NYPA) first slate of renewable energy projects, including solar and battery developments across the state. Each circle represents a project site, sized by its energy capacity and color-coded by project type and development status.
+This [interactive map](https://rtalabong.github.io/ny-renewables/) visualizes New York Power Authority's (NYPA) first slate of renewable energy projects, including solar and battery developments across the state. Each circle represents a project site, sized by its energy capacity and color-coded by project type and development status.
 
 Built using **Mapbox GL JS**, **HTML**, **CSS**, and **JavaScript**, this map was developed as part of the Web Mapping course at NYU Wagner, taught by Chris Whong.
 
