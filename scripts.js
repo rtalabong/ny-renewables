@@ -78,11 +78,11 @@ renewablesData.forEach((record) => {
 
   // Set outline style based on status
   if (record.status === 'Ready to Build') {
-    circleMarker.style.border = '1.5px solid #044E3A';
+    circleMarker.style.border = '2px solid #044E3A';
   } else if (record.status === 'Under Review') {
-    circleMarker.style.border = '1.5px solid #B18F06';
+    circleMarker.style.border = '2px solid #B18F06';
   } else if (record.status === 'Planned') {
-    circleMarker.style.border = '1.5px solid #8E8E90';
+    circleMarker.style.border = '2px solid #8E8E90';
   }
 
 
